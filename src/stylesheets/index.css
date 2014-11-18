@@ -1,0 +1,121 @@
+/*
+ Copyright 2012 Structure Computation  www.structure-computation.com
+ Copyright 2014 Jeremie Bellec
+
+ This file is part of Soda.
+
+ Soda is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ Soda is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ You should have received a copy of the GNU General Public License
+ along with Soda. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+.indexBackground {
+    //background : transparent url( 'img/login.png' ) center center no-repeat ;
+    width: 100% ; /* largeur obligatoire pour être centré */ 
+    font-family: sans-serif;
+    font-size  : 17px;
+    //border : 1px solid grey;
+    //float : left;
+}
+
+.indexlogo {
+    background : transparent url( 'img/logo_issim_test.png' ) left center no-repeat ;
+    margin-left: 5px;
+    height : 30px;
+    width: 100px ; 
+    float : left;
+}
+
+.indexpart {
+    width: 100% ; /* largeur obligatoire pour être centré */ 
+    float : left;
+    //margin-top: 30px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0px;
+    //border : 1px solid grey;
+}
+
+.indexcenterpart {
+    width: 1100px ; /* largeur obligatoire pour être centré */ 
+    margin-left: auto;
+    margin-right: auto;
+    //border : 1px solid red;
+}
+
+.indexcenterpartTitle {
+    width      : 100%;
+    font-weight : bold;
+    font-size   : 28px;
+    text-align  : center;
+    margin : 10px 0 10px 0;
+    color : #4dbce9;
+    border-bottom : 1px solid #4dbce9; /*grey;*/
+}
+
+.indexMenuButton {
+    height : 30px;
+    margin-left: 20px;
+    //color : #4dbce9;
+    float : left;
+    //font-weight : bold;
+    font-size   : 18px;
+    text-align  : left;
+    line-height : 30px;
+    cursor:pointer;
+}
+
+.indexMenuButton:hover {
+    //background : #4dbce9;
+    color : #4dbce9;
+}
+
+.presentationTitleCol {
+    width      : 100%;
+    text-align : center;
+    font-weight : bold;
+    font-size   : 15px;
+    //color      : #262626;
+    float      : left;
+    margin : 20 0 20 0;
+}
+
+.presentationBigTitleCol {
+    width      : 100%;
+    text-align : center;
+    font-weight : bold;
+    font-size   : 25px;
+    float      : left;
+    margin : 20 0 20 0;
+}
+
+.presentationTextCol {
+    width      : 90%;
+    text-align : center;
+    font-size   : 15px;
+    //color      : #262626;
+    float      : left;
+    margin : 10 0 10 0;
+    padding  : 0 5% 0 5%;
+}
+
+.presentationIndiTextCol {
+    width      : 90%;
+    text-align : center;
+    font-size   : 21px;
+    font-family: 'Indie Flower', sans-serif;
+    //color      : #262626;
+    float      : left;
+    margin : 10 0 10 0;
+    padding  : 0 5% 0 5%;
+}
+
+

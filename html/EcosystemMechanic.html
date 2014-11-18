@@ -1,0 +1,81 @@
+<html>
+  <head> 
+    <title>__EcosystemMechanic__</title> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>  
+    
+    <link type="text/css" href="Soja/ModelEditor.css" rel="stylesheet"/>
+    <link type="text/css" href="Soja/TreeView.css" rel="stylesheet"/>
+    <link type="text/css" href="Soja/Color.css" rel="stylesheet"/>
+    <link type="text/css" href="Soja/TreeApp.css" rel="stylesheet"/>
+    <link type="text/css" href="Soja/LayoutManager.css" rel="stylesheet"/>
+    <link type="text/css" href="Soja/CodeEditor.css" rel="stylesheet"/>
+    <link type="text/css" href="Soja/Application.css" rel="stylesheet"/>
+    <link type="text/css" href="gen/EcosystemScience.css" rel="stylesheet"/>
+    <!--<link type="text/css" href="gen/Browse_Folder.css" rel="stylesheet"/>-->
+    <link type="text/css" href="Soja/FileSystem.css" rel="stylesheet"/>
+
+    <!-- CodeEditor in use is CodeMirror -->
+    <link rel="stylesheet" href="CodeMirror-2.22/lib/codemirror.css">
+    <link rel="stylesheet" href="CodeMirror-2.22/lib/util/dialog.css">    
+
+
+    <script type="text/javascript" src="Soja/Soja.js"></script>
+    <script type="text/javascript" src="Soja/DomHelper.js"></script>
+    <script type="text/javascript" src="Soja/TreeView.js"></script>
+    <script type="text/javascript" src="Soja/BrowserState.js"></script>
+    <script type="text/javascript" src="Soja/LayoutManager.js"></script>
+    <script type="text/javascript" src="Soja/ModelEditor.js"></script>
+    <script type="text/javascript" src="Soja/FileSystem.js"></script>
+    <script type="text/javascript" src="Soja/Color.js"></script>
+    <script type="text/javascript" src="Soja/CodeEditor.js"></script>
+    <script type="text/javascript" src="Soja/Geometry.js"></script>
+    <script type="text/javascript" src="Soja/UndoManager.js"></script>
+    <script type="text/javascript" src="Soja/Theme.js"></script>
+    <script type="text/javascript" src="Soja/TypedArray.js"></script>
+    <script type="text/javascript" src="Soja/CanvasManager.js"></script>
+    <script type="text/javascript" src="Soja/Application.js"></script>
+
+
+    <script type="text/javascript" src="Soja/Animation.js"></script> 
+    <script type="text/javascript" src="Soja/TreeApp.js"></script>
+    <script type="text/javascript" src="gen/Browse.js"></script>
+
+    <script src="CodeMirror-2.22/lib/codemirror.js"></script>
+    <script src="CodeMirror-2.22/mode/xml/xml.js"></script>
+    <script src="CodeMirror-2.22/lib/util/dialog.js"></script>
+    <script src="CodeMirror-2.22/mode/javascript/javascript.js"></script>
+    <script src="CodeMirror-2.22/mode/ruby/ruby.js"></script>
+    <script src="CodeMirror-2.22/lib/util/searchcursor.js"></script>
+    <script src="CodeMirror-2.22/lib/util/search.js"></script>
+    <script src="CodeMirror-2.22/lib/util/match-highlighter.js"></script>
+    <script src="jQuery/jQuery.js"></script>
+    <script src="jQuery/carhartl-jquery-cookie-92b7715/jquery.cookie.js"></script>
+    <script type="text/javascript" src="gen/EcosystemScience.js"></script>
+
+    <script type="text/javascript" src="gen/Gmsh.js"></script>
+    <script type="text/javascript" src="gen/Correli.js"></script>
+    <script type="text/javascript" src="gen/UnvReader2D.js"></script>
+    <script type="text/javascript" src="gen/UnvReader3D.js"></script>
+    <script type="text/javascript" src="gen/Scult2D.js"></script>
+    <script type="text/javascript" src="gen/Scult3D.js"></script>
+    <script type="text/javascript" src="gen/Scills3D.js"></script>
+    <script type="text/javascript" src="gen/FieldsComparator.js"></script>
+    <script type="text/javascript" src="gen/StepReader.js"></script>
+    <script type="text/javascript" src="gen/Function.js"></script>
+    <script type="text/javascript" src="gen/CsvReader.js"></script>
+    <script type="text/javascript" src="gen/Scilab.js"></script>
+    <script type="text/javascript" src="gen/Acquisition.js"></script>
+    <script type="text/javascript" src="gen/Test.js"></script>
+    <script type="text/javascript" src="gen/CRM.js"></script>
+
+  <body onload="SC_MODEL_ID = 0; SC_USER_NAME = 'john doe'; SC_USER_EMAIL = 'john@is-sim.com'; SC_PROJECT_NAME = 'projet 1'; SC_WORSPACE_NAME = 'WP 1'; load_if_cookie();">
+  
+    User name: <input id="username" type="text" name="username" onkeypress="keypresslogin( event );"/> 
+    Password: <input id="password" type="password" name="password" onkeypress="keypresslogin( event );"/> 
+    <button type="button" onclick="try_username();">Submit</button> 
+    <div id="pwscomment"/>
+  
+  </body> 
+</html>
+
