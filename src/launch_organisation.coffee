@@ -52,32 +52,7 @@ launch_organisation = ( userid, home_dir, main = document.body ) ->
     
 create_organisation_view = ( config, main = document.body ) ->
     #ajout des applications de EcosystemMecanics
-    APPS.push new TreeAppApplication_Correlation
-    APPS.push new TreeAppApplication_Scills3D
-    APPS.push new TreeAppApplication_Scult3D
-    APPS.push new TreeAppApplication_Scills2D
-    APPS.push new TreeAppApplication_Scult2D
-    APPS.push new TreeAppApplication_FieldsComparator
-    #APPS.push new TreeAppApplication_UnvReader3D
-    #APPS.push new TreeAppApplication_UnvReader2D
-    APPS.push new TreeAppApplication_Mesher
-    APPS.push new TreeAppApplication_Sketcher
-    APPS.push new TreeAppApplication_StepReader  
-    APPS.push new TreeAppApplication_Plot3D
-    APPS.push new TreeAppApplication_Plot2D
-    #APPS.push new TreeAppApplication_DeepCopy
-    APPS.push new TreeAppApplication_CsvReader
-    APPS.push new TreeAppApplication_Annotation
-    APPS.push new TreeAppApplication_Scilab
-    APPS.push new TreeAppApplication_Acquisition
-    APPS.push new TreeAppApplication_Grid
     APPS.push new TreeAppApplication_Test
-    APPS.push new TreeAppApplication_TestA
-    
-    APPS.push new TreeAppApplication_IpolACE
-    APPS.push new TreeAppApplication_IpolLSD
-    APPS.push new TreeAppApplication_IpolSCA
-    APPS.push new TreeAppApplication_IpolTVD
     
     #login bar
     login_bar = new LoginBar main, config
